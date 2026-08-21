@@ -1,6 +1,6 @@
 {
   "name": "@ebliss/tree",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "type": "module",
   "main": "./dist/index.js",
@@ -8,5 +8,9 @@
   "types": "./dist/index.d.ts",
   "scripts": {"build": "tsc", "prepare": "npm run build"},
   "peerDependencies": {"react": ">=18", "react-dom": ">=18"},
-  "devDependencies": {"@types/react": "^19.0.0", "@types/react-dom": "^19.0.0", "typescript": "^5.0.0", "react": "^19.0.0"}
+  "dependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.0.0"
+  }
 }
