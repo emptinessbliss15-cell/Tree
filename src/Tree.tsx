@@ -36,7 +36,7 @@ function TreeNodeView({
         style={{ paddingLeft: `${depth * 16 + 8}px` }}
         onClick={() => onSelect?.(node)}
       >
-        {node.icon ? `${node.icon} ` : ''}{node.label}
+        {node.icon}{node.icon ? ' ' : ''}{node.label}
       </button>
       {node.children?.map((child) => (
         <TreeNodeView
